@@ -1,0 +1,30 @@
+.ingredients{
+    border: 1px solid rgb(219, 218, 218);
+    padding: 20px;
+    width:185px;
+    margin-left: 1350px;
+    position: relative;
+    top: -645px;
+    border-radius: 15px;
+}
+
+.momzadeba{
+    border: 1px solid rgb(219, 218, 218);
+    padding: 20px;
+    width:185px;
+    margin-left: 1000px;
+    position: relative;
+    top: -960px;
+    border-radius: 15px;
+}
+.s1,.s2,.s3{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(155, 154, 154);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+  

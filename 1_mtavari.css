@@ -1,0 +1,422 @@
+body {
+    overflow-x: hidden;
+    height: 100%;
+    min-height: 100%;
+}
+
+
+.logo{
+    width: 150px;
+    height: 120px;
+    margin-left: 300px;
+}
+
+.container{
+    position: absolute;
+    margin-left: 850px;
+    padding: 0;
+    
+    margin-top: -50px;
+    display: inline-block;
+    justify-content: space-around ;
+    
+    /* justify-content: space-between;
+    display: -webkit-flex;
+    padding: 30px 70px; */
+}
+
+.btn{
+    /* border: 2px solid brown; */
+    border: none;
+    background: none;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    width: auto;
+    cursor: pointer;
+    
+    border-radius: 4px;
+    
+    transition: ease-in-out 0.6s;
+    outline: none;
+}
+.btn:hover {
+    box-shadow: inset 300px 0 0 0 red;
+    color: white;
+    
+}
+
+
+body {
+    margin: 0;
+}
+
+.slidershow{
+    width: 1920px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.navigation {
+position: absolute;
+bottom: 20px;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+}
+
+.bar{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 4px solid black;
+    margin: 6px;
+    cursor: pointer;
+    top: -350px;
+    transition: 0.4s;
+    margin-left: 50px;
+}
+.bar:hover{
+    background: white;
+}
+
+input[name='r']{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.slide{
+    width: 20%;
+    transition: 0.6s;
+    position: relative;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#r3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#r4:checked ~ .s1{
+    margin-left: -60%;
+}
+.container2{
+    margin-left: 615px;
+    position: relative;
+    top: 100px;
+
+}
+.item{
+    
+    overflow: hidden;
+   background: red;
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   margin-left: 25px;
+   border-radius: 100%;
+   border: 7px solid white
+   
+   
+   
+}
+
+.image{
+    position: relative;
+    width: 125px;
+    height: 125px;
+   margin-left: -10px;
+   top: -25px;
+    
+    
+ }
+
+ .image2{
+    position: relative;
+    width: 125px;
+    height: 125px;
+   margin-left: -15px;
+   top: -10px;
+    
+    
+ }
+
+ .image3{
+    position: relative;
+    width: 125px;
+    height: 100px;
+   margin-left: -15px;
+   
+    
+    
+ }
+
+ .image4{
+    position: relative;
+    width: 125px;
+    height: 100px;
+    
+ }
+
+ .image5{
+    position: relative;
+    width: 125px;
+    height: 100px;
+    
+ }
+
+ .text_container{
+margin-left: 25px;
+    position: relative;
+   
+ }
+
+ .text1{
+   display: inline-block;
+   position: relative;
+   margin-left: 25px;
+   top: -10px; 
+   
+}
+
+.text2{
+    display: inline-block;
+    position: relative;
+    margin-left: 70px;
+    top: -10px; 
+    
+ }
+
+ .text3{
+    display: inline-block;
+    position: relative;
+    margin-left: 60px;
+    top: -10px; 
+    
+ }
+
+ .text4{
+    display: inline-block;
+    position: relative;
+    margin-left: 52px;
+    top: -10px; 
+    
+ }
+
+ .text5{
+    display: inline-block;
+    position: relative;
+    margin-left: 60px;
+    top: -10px; 
+    
+ }
+ .text1:hover,.text2:hover,.text3:hover,.text4:hover,.text5:hover{
+cursor: pointer;
+color: red;
+ }
+
+ .grid{
+     
+     display: grid;
+     margin-top: 80px;
+     grid-template-columns:  repeat(3,1fr);
+     grid-auto-rows: minmax(370px,auto);
+     width: 750px;
+     height: 400px;
+     grid-gap: 10px 30px;
+     margin-left: 560px;
+     gap: 30px;
+     
+     
+ }
+
+
+
+ .grid div{
+    
+     
+     border: 1px solid black;
+     
+     
+ }
+ 
+ 
+
+ .item1:hover,.item2:hover,.item3:hover,.item4:hover,.item5:hover,.item6:hover{
+    cursor: pointer;
+    border: 1px solid red;
+     }
+
+     .grid2{
+        display: grid;
+        margin-top: 10px;
+        grid-template-columns:  repeat(3,1fr);
+        
+        width: 250px;
+        height: 400x;
+        grid-gap: 10px 30px ;
+        margin-left: 340px;
+        gap: 150px;
+     }
+.grid2 div{
+    border: 0.2px solid rgb(194, 192, 192);
+}
+
+.news1:hover{
+    cursor: pointer;
+    border: 1px solid red;
+}
+.read_more1:hover{
+cursor: pointer;
+color: red;
+}
+
+.news2:hover{
+    cursor: pointer;
+    border: 1px solid red;
+}
+.read_more2:hover{
+cursor: pointer;
+color: red;
+}
+
+.news3:hover{
+    cursor: pointer;
+    border: 1px solid red;
+}
+.read_more3:hover{
+cursor: pointer;
+color: red;
+}
+
+.user1{
+    width: 550px;
+    height: 150px;
+    background-color: rgb(231, 228, 228);
+    margin-left: 250px;
+    position: relative;
+    top: -25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+
+.grid3{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns:  repeat(6,1fr);
+    
+    width: 250px;
+    height: 400x;
+    position: relative;
+    top: -500px;
+ }
+
+ .footer{
+     background-color:	rgb(37, 27, 25);
+     width: 100%;
+height: 290px;
+     position: relative;
+     top: 150px;
+     margin-top: -700px;
+ }
+ .about_us{
+     color: rgb(212, 209, 209);
+     font-weight: bold;
+     position: relative;
+     margin-left: 400px;
+     top: 25px;
+     
+ }
+ .about_us2{
+    color: rgb(212, 209, 209);
+    width: 250px;
+    position: relative;
+     margin-left: 400px;
+     top: 25px;
+    
+ }
+ .fb{
+     width: 25px;
+     height: 25px;
+     position: relative;
+     margin-left: 400px;
+     top: 20px;
+     cursor: pointer;
+ }
+
+ .tw{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    margin-left: 10px;
+    top: 20px;
+    cursor: pointer;
+}
+.about_us5{
+    color: white;
+    position: relative;
+    margin-left: 1000px;
+    margin-top: -200px;
+}
+
+.about_us4:hover{
+color: red;
+cursor: pointer;
+}
+
+
+ /* .rating{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     display: flex;
+ }
+ .rating input{
+      display: none; 
+ }
+ .rating label{
+     display: block;
+     cursor: pointer;
+     width: 50px;
+     margin-left: -25px;
+     color: #1f9cff;
+ }
+
+ .rating label:after{
+     content: "★";
+     font-family: fontAwesome;
+     font-size: 30px;
+     position: relative;
+     display: block;
+     margin-left: 20px;
+     color: rgba(0,0,0,.5);
+     
+     top: 0;
+     
+     transition: .5s;
+     text-shadow: 0 2px 5px rgba(0,0,0,.5);
+     
+ }
+ .rating label:hover:after,
+ .rating input:checked ~ label:after{
+    color: rgb(240, 218, 21);
+ } */

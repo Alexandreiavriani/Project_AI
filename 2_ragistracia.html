@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kulinaria</title>
+    <link rel="stylesheet" href="2_registracia.css">
+    <script src="project.js"></script>
+</head>
+<body>
+    <div>
+        <a href="http://127.0.0.1:5500/project.html">
+            <img class="logo" src="images/master chef logo.png" alt="">
+    </a>
+    </div>
+    <div class="container"> 
+   <input class="btn btn1" type="button" onclick="location.href='http://127.0.0.1:5500/1_mtavari.html';" value="მთავარი">
+   <!-- <input class="btn btn2" type="button" value="ძირითადი ინფორმაცია"> -->
+   <input class="btn btn3" type="button" value="კონტაქტი" onclick="location.href='http://127.0.0.1:5500/3_contact_us.html'">
+   <input class="btn btn4" type="button" value="ავტორიზაცია">
+   <input onclick="location.href='http://127.0.0.1:5500/2_ragistracia.html';" class="btn btn5" type="button" value="რეგისტრაცია">
+   <input class="btn btn6" type="button" value="სტატიები">
+   <input class="btn btn7" type="button" value="რეცეპტების ბლოგი">
+   <input onclick="location.href='http://127.0.0.1:5500/recipes.html';" class="btn btn8" type="button" value="რეცეპტები">
+</div>
+    <div style="background-color: black; width: 1920px; ">
+        <img style=" opacity: 0.5;"  src="images/reg_image.jpg" alt="">
+    </div>
+    <h4 style="position: relative; font-weight: bold; font-size: 70px; color: white; 
+    text-align: center; top: -400px; ">რეგისტრაცია</h4>
+    <!-- <div class="reg">
+        <h4 >შეიყვანეთ თქვენი მონაცემები</h4>
+        
+        <hr>
+        <p>Email</p>
+        <form  action="#">
+        
+        <input onkeydown="validation()" id="email" type="text" style="height: 25px;width: 300px;border-radius: 5px;"
+        placeholder="Enter Email">
+        <div class="error_text">Please enter valid</div>
+        <button class="but" >submit</button>
+    </form>
+        </div> -->
+        <!-- <div class="reg">
+            <h3>შეიყვანეთ თქვენი მონაცემები</h3>
+            <form id="form" action="#">
+                <div class="inputBox">
+                    <input type="text" name="" id="email" placeholder="Enter Email Address"
+                    onkeydown="validation()"
+                    >
+                    <span id="text"></span>
+                    
+            </form>
+        </div> -->
+        <div class="reg">
+            <h3>შეიყვანეთ თქვენი მონაცემები </h3>
+        <form>
+            <input class="email" id="text1" placeholder="Email" type="text">
+            <label id="lbltext" style="color: red; visibility: hidden;"></label>
+            <br>
+            
+            <input name="password" id="text2"  class="password" type="text" placeholder="Password">
+            <label id="password_difficult" style="color: red; visibility: hidden; top: 25px; position: relative;"></label>
+            <br>
+            <input name="confirm_password" class="confirm_password"   type="text" placeholder="Confirm Password">
+            <label id='password_text' style="color: red; visibility: hidden; top: 25px; position: relative;"></label>
+            <br>
+            <input class="date" type="date">
+            <br>
+            <input class="name" type="text" placeholder="Name">
+            <br>
+            <input class="country" type="text" placeholder="Country">
+            <br>
+            <input class="town" type="text" placeholder="Town">
+            <br>
+            <input class="phone" type="text" placeholder="Phone">
+            <br>
+            
+        </form>
+        <button class="but"  onclick="validation();password();password_complexity()" type="button">submit</button>
+        
+    </div>
+
+
+    <div class="grid3">
+        <img src="images/1.jpg" alt="">
+        <img src="images/2.jpg" alt="">
+        <img src="images/3.jpg" alt="">
+        <img src="images/4.jpg" alt="">
+        <img src="images/5.jpg" alt="">
+        <img src="images/6.jpg" alt="">
+     </div>
+     <div class="footer"><p class="about_us">ჩვენს შესახებ</p>
+     <p class="about_us2">Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Provident,  earum! Ut nemo, impedit laborum ea
+          que aspernatur veniam fuga corrupti quos voluptates illum voluptatem 
+          consectetur!
+         </p>
+         <img onclick="location.href='#'" class="fb"  src="images/facebook.png" alt="">
+         <img onclick="location.href='#'" class="tw"  src="images/twitter.png" alt="">
+     <div class="about_us5">
+         <p style="font-weight: bold;" class="about_us4_1" >სწაფი ბმულები</p>
+         <p onclick="location.href='#'" class="about_us4">მთავარი</p>
+         <p onclick="location.href='#'" class="about_us4">ძირითადი ინფორმაცია</p>
+         <p onclick="location.href='#'" class="about_us4">კონტაქტი</p>
+         <p onclick="location.href='#'" class="about_us4">ავტორიზაცია</p>
+         <p onclick="location.href='#'" class="about_us4" >რეგისტრაცია</p>
+         <p onclick="location.href='#'" class="about_us4">სტატიები</p>
+         <p onclick="location.href='#'" class="about_us4">რეცეპტების ბლოგი</p>
+         
+     
+     </div>
+     </div>
+     
+</body>
+</html>
